@@ -36,7 +36,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		
 		//  ***** REAL TRIAL ************//
 		//The CSS for all the prime stimuli.
-		primeStimulusCSS : {color:'#FFFF00','font-size':'2.3em'},
+		primeStimulusCSS : {color:'#FFFFFF','font-size':'2.3em'},
 		//The prime categories.
 		primeCats :  [
 			{
@@ -44,16 +44,18 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 				nameForLogging : 'fix1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word : '+'}, 
-					{word : '+'},
-					{word : '+'},
-					{word : '+'},
-					{word : '+'}, 
-					{word : '+'},
-					{word : '+'},
-					{word : '+'},
-					{word : '+'},
-					{word : '+'}]
+					{word : 'Is Bob?'}, 
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'}, 
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'}, 
+					{word : 'Is Bob?'},
+					{word : 'Is Bob?'}]
 
 			}, 
 			{
