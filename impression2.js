@@ -147,7 +147,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 					{word : 'Intelligent'},
 					{word : 'Interested'}, 
 					{word : 'Kind'},
-					{word : 'Lovable'}, 
+					{word : 'Loveable'}, 
 					{word : 'Mature'},
 					{word : 'Optimistic'}, 
 					{word : 'Organized'},
@@ -259,7 +259,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		primeDuration : 700, 
 		postPrimeDuration : 75, //Duration of blank screen between prime and target.
 		targetDuration : 1000, //Duration of target presentation.
-		ITI : 1500, //Duration between trials.
+		ITI : 1000, //Duration between trials.
 
 		//  ********* END REAL TRIALS **********//
 
