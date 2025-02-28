@@ -8,8 +8,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		trialsInBlock : [30, 30, 30, 30, 30, 30, 30, 30], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
-		sortingLabel1 : 'Yes', //Response is coded as 0. 
-		sortingLabel2 : 'No',  //Response is coded as 1.
+		sortingLabel1 : 'No', //Response is coded as 0. 
+		sortingLabel2 : 'Yes',  //Response is coded as 1.
 		
 		rightKey : 'i', 
 		leftKey : 'e',
