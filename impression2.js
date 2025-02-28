@@ -180,8 +180,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			"See how fast it is? Don't worry if you miss some. " + 
 			'Go with your gut feelings.<br/><br/>' + 
-			'After seeing the Bob is? screen, concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
+			'After seeing the Bob is? screen, concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think Bob DOES NOT has the trait with the <b>rightKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
@@ -191,8 +191,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			'Continue to another round of this task. ' + 
 			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
+			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think Bob DOES NOT has the trait with the <b>rightKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
@@ -202,8 +202,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			'Ready for the FINAL round? ' + 
 			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
+			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think Bob DOES NOT has the trait with the <b>rightKey</b> key.<br/><br/>' + 
 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
@@ -230,7 +230,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		
 			//Instructions text for the 2-responses version.
 		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'In this task, you will be asked if you think Bob has several traits, and you will see each trait several times. First you will see an + in the middle of the screen followed by a screen that says - Bob is?Then you will see the trait. You are asked to determine is you think that Bob has the trait or if Bob does not have the trait. Press the <b>leftKey</b> key or the NO response if you DO NOT think Bob has the trait. Hit the <B>rightKey</B> or YES response if you DO think Bob has the trait.<br/><br/>' +  
+			'In this task, you will be asked if you think Bob has several traits, and you will see each trait several times. First you will see a screen that says - Bob is? Then you will see the trait. You are asked to determine is you think that Bob has the trait or if Bob does not have the trait. Press the <b>rightKey</b> key or the NO response if you DO NOT think Bob has the trait. Hit the <B>leftKey</B> or YES response if you DO think Bob has the trait.<br/><br/>' +  
 			'The items appear and disappear quickly.  ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
