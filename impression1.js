@@ -216,7 +216,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			"See how fast it is? Don't worry if you miss some. " + 
 			'Go with your gut feelings.<br/><br/>' + 
-			'After seeing the Bob is? screen, concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
+			'After seeing the Is Bob? screen, concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
 			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
