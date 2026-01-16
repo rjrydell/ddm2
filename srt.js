@@ -44,16 +44,16 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 				nameForLogging : 'fix1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},  
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'}]
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},  
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}]
 
 			}, 
 			{
@@ -61,52 +61,44 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 				nameForLogging : 'fix2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    	{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-				    	{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-				    	{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}, 
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'},
-					{word : 'Is Bob?'}]
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},  
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},					
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},  
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},	
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},  
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},					
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},  
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'}, 
+					{word : 'Are you?'},					
+					{word : 'Are you?'},
+					{word : 'Are you?'}]
 			}
 		],
 
@@ -216,8 +208,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			"See how fast it is? Don't worry if you miss some. " + 
 			'Go with your gut feelings.<br/><br/>' + 
-			'After seeing the Is Bob? screen, concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
+			'After seeing the Are you? screen, concentrate on each trait and indicate whether you think YOU DO have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think YOU DO NOT have the trait with the <b>rightKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
@@ -225,10 +217,10 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 			'[Round 2 of nBlocks]</p></div>',
 		
 		middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'Continue to another round of this task. ' + 
-			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
+			"See how fast it is? Don't worry if you miss some. " + 
+			'Go with your gut feelings.<br/><br/>' + 
+			'After seeing the Are you? screen, concentrate on each trait and indicate whether you think YOU DO have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think YOU DO NOT have the trait with the <b>rightKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
@@ -238,9 +230,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
 			'Ready for the FINAL round? ' + 
 			'The rules are exactly the same:<br/><br/>' + 
-			'Concentrate on each trait and indicate whether you think Bob DOES have the trait with the <b>rightKey</b> key,  ' + 
-			'or indicate whether you think Bob DOES NOT has the trait with the <b>leftKey</b> key.<br/><br/>' + 
-
+			'Concentrate on each trait and indicate whether you think YOU DO have the trait with the <b>leftKey</b> key,  ' + 
+			'or indicate whether you think YOU DO NOT has the trait with the <b>rightKey</b> key.<br/><br/>' + 
 			'Read each trait and make a response quickly, while trying to minimize errors. ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
@@ -256,7 +247,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		fixationDuration : -1, //It means that by default we do not use fixation.
 		primeDuration : 700, 
 		postPrimeDuration : 75, //Duration of blank screen between prime and target.
-		targetDuration : 1000, //Duration of target presentation.
+		targetDuration : 2000, //Duration of target presentation.
 		ITI : 1000, //Duration between trials.
 
 		//  ********* END REAL TRIALS **********//
@@ -266,8 +257,8 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		
 			//Instructions text for the 2-responses version.
 		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'In this task, you will be asked if you think Bob has several traits, and you will see each trait several times. First you will see a screen that says - Is Bob? and then you will see the trait. You are asked to determine is you think that Bob has the trait or if Bob does not have the trait. Press the <b>rightKey</b> key or the YES response if you DO think Bob has the trait. Hit the <B>leftKey</B> or the NO response if you DO NOT think Bob has the trait.<br/><br/>' + 
-			'The items appear and disappear quickly.  ' + 
+			'In this task, you will be asked if you think you have several traits, and you will see each trait several times. First you will see a screen that says - ARE YOU? and then you will see the trait. You are asked to determine is do you think that YOU HAVE the trait or do you think YOU DO NOT have the trait. Press the <b>leftKey</b> key or the YES response if you DO think YOU have the trait. Hit the <B>rightKey</B>e trait.< or the NO response if you DO NOT think YOU has the trait./><br/>' + 
+			'The items show up for a few seconds and disappear.  ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial; color:#FFFFFF">' + 
@@ -284,11 +275,11 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
 			mediaArray : [
-				{word : 'Is Bob?'}, 
-				{word : 'Is Bob?'}, 
-				{word : 'Is Bob?'},
-				{word : 'Is Bob?'},
-				{word : 'Is Bob?'}
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}
 			]
 		},
 
@@ -308,7 +299,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		exampleBlock_fixationDuration : -1, 
 		exampleBlock_primeDuration : 700, 
 		exampleBlock_postPrimeDuration : 75, 
-		exampleBlock_targetDuration : 1000,
+		exampleBlock_targetDuration : 2000,
 
 		// ****** END EXAMPLE ROUND ********
 		
