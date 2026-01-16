@@ -257,7 +257,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		
 			//Instructions text for the 2-responses version.
 		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial; color:#FFFFFF"><br/>' + 
-			'In this task, you will be asked if you think you have several traits, and you will see each trait several times. First you will see a screen that says - ARE YOU? and then you will see the trait. You are asked to determine is do you think that YOU HAVE the trait or do you think YOU DO NOT have the trait. Press the <b>leftKey</b> key or the YES response if you DO think YOU have the trait. Hit the <B>rightKey</B> key or the NO response if you DO NOT think YOU has the trait.><br/>' + 
+			'In this task, you will be asked if you think you have several traits, and you will see each trait several times. First you will see a screen that says - ARE YOU? and then you will see the trait. You are asked to determine is do you think that YOU HAVE the trait or do you think YOU DO NOT have the trait. Press the <b>leftKey</b> key or the YES response if you DO think YOU have the trait. Hit the <b>rightKey</b> key or the NO response if you DO NOT think YOU has the trait.<br/>' + 
 			'The items show up for a few seconds and disappear.  ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial; color:#FFFFFF"><br/><br/>' + 
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
