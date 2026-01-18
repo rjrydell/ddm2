@@ -247,7 +247,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		fixationDuration : -1, //It means that by default we do not use fixation.
 		primeDuration : 700, 
 		postPrimeDuration : 75, //Duration of blank screen between prime and target.
-		targetDuration : 2000, //Duration of target presentation.
+		targetDuration : 800, //Duration of target presentation.
 		ITI : 1000, //Duration between trials.
 
 		//  ********* END REAL TRIALS **********//
@@ -299,7 +299,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		exampleBlock_fixationDuration : -1, 
 		exampleBlock_primeDuration : 700, 
 		exampleBlock_postPrimeDuration : 75, 
-		exampleBlock_targetDuration : 2000,
+		exampleBlock_targetDuration : 800,
 
 		// ****** END EXAMPLE ROUND ********
 		
