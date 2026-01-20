@@ -44,16 +44,19 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 				nameForLogging : 'fix1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},  
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}]
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+					{word : 'ARE YOU?'}]
 
 			}, 
 			{
@@ -61,44 +64,47 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 				nameForLogging : 'fix2', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},  
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},					
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},  
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},	
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},  
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},					
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},  
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'}, 
-					{word : 'Are you?'},					
-					{word : 'Are you?'},
-					{word : 'Are you?'}]
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 				
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'}, 
+				{word : 'ARE YOU?'},
+				{word : 'ARE YOU?'}, 
+					{word : 'ARE YOU?'}]
 			}
 		],
 
@@ -245,7 +251,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 		
 		//Duration parameters.
 		fixationDuration : -1, //It means that by default we do not use fixation.
-		primeDuration : 700, 
+		primeDuration : 600, 
 		postPrimeDuration : 75, //Duration of blank screen between prime and target.
 		targetDuration : 800, //Duration of target presentation.
 		ITI : 1000, //Duration between trials.
@@ -297,7 +303,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm2/jamp.js'], function(APIConstr
 
 		//For the example block (often practice)  - MEASURED IN MILLISECONS.  1000MS = 1 SECOND
 		exampleBlock_fixationDuration : -1, 
-		exampleBlock_primeDuration : 700, 
+		exampleBlock_primeDuration : 600, 
 		exampleBlock_postPrimeDuration : 75, 
 		exampleBlock_targetDuration : 800,
 
